@@ -1,5 +1,6 @@
-# MAP2192_Fall_24
+# MathData24
 
-<img src="https://www.fau.edu/science/images/buildingmap.jpg">
+[My Website](https://williamedwardhahn.github.io/MathData24/)
+
 
 ## Keep notes here
