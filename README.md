@@ -1,6 +1,6 @@
 # MathData24
 
-[My Website](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[My Website](https://alex-alti.github.io/MAP2192_Fall_24/)
 
 
 ## Keep notes here
