@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coral Bleaching Detection Project</title>
+    <title>TNet: AI-Powered Brain Tumor Diagnosis</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,103 +11,98 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background-color: #008080;
-            color: #ffffff;
-            padding: 10px 0;
+            background: #007bff;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
         }
-        nav {
-            background-color: #333;
-            color: #ffffff;
-            padding: 15px;
-            text-align: center;
+        section {
+            padding: 1.5rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        nav a {
-            color: #ffffff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main {
-            margin: 20px 0;
-        }
-        .main h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .main img {
-            display: block;
-            margin: 0 auto;
-            max-width: 100%;
-            height: auto;
-        }
-        .main .content {
-            text-align: justify;
-            margin-bottom: 20px;
+        h1, h2 {
+            color: #007bff;
         }
         footer {
-            background-color: #333;
-            color: #ffffff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            background: #333;
+            color: #fff;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Coral Bleaching Detection Using Computer Vision</h1>
-    </header>
-    
-    <nav>
-        <a href="#introduction">Introduction</a>
-        <a href="#methodology">Methodology</a>
-        <a href="#results">Results</a>
-        <a href="#conclusion">Conclusion</a>
-    </nav>
-    
-    <div class="container">
-        <section class="main" id="introduction">
-            <h1>Introduction</h1>
-            <p class="content">
-                Coral bleaching is a severe environmental issue caused by changes in sea temperature, pollution, and other factors. In this project, we employ computer vision techniques to detect coral bleaching in underwater images. Using convolutional neural networks (CNNs), we aim to automate the identification of bleached corals, thereby aiding in the conservation efforts of coral reefs worldwide.
-            </p>
-            <img src="https://static.euronews.com/articles/stories/06/35/57/32/1440x810_cmsv2_4da6289d-b102-5e4c-aa39-462ed1d858e0-6355732.jpg" alt="Coral Bleaching">
-        </section>
 
-        <section class="main" id="methodology">
-            <h1>Methodology</h1>
-            <p class="content">
-                Our approach involves collecting a dataset of underwater images depicting both healthy and bleached corals. We preprocess these images by normalizing and augmenting the data to improve model generalization. A deep learning model, specifically a CNN, is trained on the dataset to classify images based on the presence of bleaching. The model is evaluated on a separate test set to assess its accuracy.
-            </p>
-        </section>
+<header>
+    <h1>TNet: AI-Powered Brain Tumor Diagnosis</h1>
+</header>
 
-        <section class="main" id="results">
-            <h1>Results</h1>
-            <p class="content">
-                The trained model achieved an accuracy of 92% on the test set, demonstrating its effectiveness in detecting coral bleaching. The confusion matrix and ROC curve indicate a high true positive rate, making it a valuable tool for environmental monitoring.
-            </p>
-            <img src="https://miro.medium.com/v2/resize:fit:1400/1*f7YOaE4TWubwaFF7Z1fzNw.png" alt="Model Performance Graphs">
-        </section>
+<section>
+    <h2>About TNet</h2>
+    <p>
+        TNet is an innovative AI solution designed to revolutionize brain tumor diagnosis. 
+        Leveraging a convolutional neural network (CNN) architecture based on AlexNet, TNet 
+        offers accurate and efficient detection of brain tumors.
+    </p>
+</section>
 
-        <section class="main" id="conclusion">
-            <h1>Conclusion</h1>
-            <p class="content">
-                This project showcases the potential of computer vision in environmental science. By automating the detection of coral bleaching, we can provide timely and accurate data to researchers and conservationists, helping to protect one of the most vital ecosystems on the planet.
-            </p>
-        </section>
-    </div>
+<section>
+    <h2>Our Mission</h2>
+    <ul>
+        <li>Empower medical professionals with advanced AI tools for rapid and accurate diagnosis.</li>
+        <li>Improve patient outcomes through early detection and effective treatment plans.</li>
+        <li>Drive innovation in healthcare with transformative AI technology.</li>
+    </ul>
+</section>
 
-    <footer>
-        <p>© 2024 Coral Bleaching Detection Project. All rights reserved.</p>
-    </footer>
+<section>
+    <h2>Technical Overview</h2>
+    <h3>Model Architecture</h3>
+    <p>
+        The TNet model is based on AlexNet, featuring convolutional layers that extract spatial 
+        patterns to distinguish between healthy and tumor tissues. Key highlights include:
+    </p>
+    <ul>
+        <li>Feature extraction through convolutional layers with filters increasing up to 256.</li>
+        <li>Max pooling for dimensionality reduction and computational efficiency.</li>
+        <li>ReLU activation for non-linearity and faster training.</li>
+        <li>Fully connected layers with dropout regularization to prevent overfitting.</li>
+    </ul>
+    <h3>Training Details</h3>
+    <ul>
+        <li>Optimizer: Stochastic Gradient Descent (SGD) with a learning rate of 0.003.</li>
+        <li>Epochs: Trained over 20 epochs with an 80/20 data split for training and validation.</li>
+        <li>Accuracy: Achieved 92.16% accuracy as per confusion matrix analysis.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Business Strategy</h2>
+    <h3>Roadmap</h3>
+    <ol>
+        <li>Development: Refinement of the CNN model.</li>
+        <li>Clinical Trials: Validation in collaboration with hospitals and research centers.</li>
+        <li>Market Launch: Deployment to healthcare providers globally.</li>
+    </ol>
+    <h3>Revenue Model</h3>
+    <ul>
+        <li>Subscription-based service for hospitals and clinics.</li>
+        <li>Partnerships with medical technology companies for integration.</li>
+        <li>Research grants for ongoing development.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 TNet AI Solutions. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
